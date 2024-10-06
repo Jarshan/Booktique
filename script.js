@@ -14,4 +14,6 @@ var cancelpopup = document.getElementById("cancel-popup")
 
 cancelpopup.addEventListener("click",function(event){
     event.preventDefault()
+    popupoverlay.style.display="none"
+    popupbox.style.display="none"
 })
