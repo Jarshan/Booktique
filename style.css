@@ -11,3 +11,16 @@ body{
     background-color: #fd6569;
     padding: 10px;
 }
+
+.container{
+    padding: 10px;
+}
+
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+}
