@@ -27,9 +27,11 @@ var bookauthorinput = document.getElementById("book-author-input")
 var bookdescriptioninput = document.getElementById("book-description-input")
 
 
-addbook.addEventListener("click",function(){
+addbook.addEventListener("click",function(event){
+    event.preventDefault()
     var div=document.createElement("div")
     div.setAttribute("class","book-container")
-    div,innerHTML=
+    div.innerHTML=`<h1>${booktitleinput.value}</h1>`
+    container.append(div)
 })
 
