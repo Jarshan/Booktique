@@ -9,3 +9,9 @@ addpopupbutton.addEventListener("click",function(){
     popupbox.style.display="block"
 })
 
+//select cancel button
+var cancelpopup = document.getElementById("cancel-popup")
+
+cancelpopup.addEventListener("click",function(event){
+    event.preventDefault()
+})
