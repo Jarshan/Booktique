@@ -40,3 +40,18 @@ body{
     border: none;
     margin-top: 10px;
 }
+
+.add-button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
