@@ -17,3 +17,12 @@ cancelpopup.addEventListener("click",function(event){
     popupoverlay.style.display="none"
     popupbox.style.display="none"
 })
+
+//select container, add-book, book-title-input, book-author-input, book-description-input
+
+var container = document.querySelector(".container")
+var addbook = document.querySelector(".add-book")
+var booktitleinput = document.getElementById("book-title-input")
+var bookauthorinput = document.getElementById("book-author-input")
+var bookdescriptioninput = document.getElementById("book-description-input")
+
