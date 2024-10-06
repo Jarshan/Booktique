@@ -24,3 +24,19 @@ body{
     color: white;
     margin: 30px;
 }
+
+.book-container h2{
+    color: #fd6569;
+}
+
+.book-container button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
