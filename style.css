@@ -8,13 +8,14 @@ body{
 }
 
 .navbar{
-    background-color: #fd6569;
+    background-color: #d1be2b;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .container{
     padding: 10px;
+    
 }
 
 .book-container{
@@ -29,11 +30,11 @@ body{
 }
 
 .book-container h2{
-    color: #fd6569;
+    color: #d1be2b;
 }
 
 .book-container button{
-    background-color: #fd6569;
+    background-color: #d1be2b;
     color: black;
     border-radius: 10px;
     padding-top: 5px;
@@ -45,7 +46,7 @@ body{
 }
 
 .add-button{
-    background-color: #fd6569;
+    background-color: #d1be2b;
     color: black;
     border-radius: 100%;
     padding-top: 20px;
@@ -56,7 +57,7 @@ body{
     border: none;
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
 }
 
 .popup-overlay{
@@ -72,7 +73,7 @@ body{
 }
 
 .popup-box{
-    background-color: #fd6569;
+    background-color: #d1be2b;
     width: 40%;
     padding: 40px;
     border-radius: 10px;
